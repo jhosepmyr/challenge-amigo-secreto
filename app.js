@@ -61,3 +61,9 @@ function sortearAmigo(){
     }
     selectFriend.textContent = friends[generateRandomNumberBasedOnFriends()];
 }
+
+function resetearLista(){
+    friends = [];
+    listFriendsContainer.innerHTML = '';
+    selectFriend.textContent = '';
+}
