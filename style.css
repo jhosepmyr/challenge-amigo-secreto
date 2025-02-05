@@ -160,3 +160,9 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+
+/* Botón de resetear */
+.button-reset {
+    margin-top: 1rem;
+}
